@@ -87,6 +87,7 @@ source $ZSH/oh-my-zsh.sh
   alias hr="cd ~/Dropbox/HR"
 
   export EDITOR=vim
-  export PUUSH_API_KEY=C8FDD5A7F7CC682E10A68C6317660F02
+  
+  source $HOME/load_api_keys.sh
 
   screenfetch
