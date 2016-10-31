@@ -43,11 +43,11 @@ nmap <C-w> :bw<CR>
 nmap t :enew<cr>
 
 " air-line
- let g:airline_powerline_fonts = 1
-   if !exists('g:airline_symbols')
-           let g:airline_symbols = {}
-             endif
- let g:airline_theme='bubblegum'
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+let g:airline_theme='bubblegum'
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
@@ -66,3 +66,6 @@ inoremap jj <ESC>
 
 " tagbar
 nmap <F8> :TagbarToggle<CR>
+
+" auto-indent file
+map <F7> gg=G
