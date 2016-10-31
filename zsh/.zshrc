@@ -86,6 +86,8 @@ source $ZSH/oh-my-zsh.sh
   alias retoot="sudo service network-manager restart"
   alias hr="cd ~/Dropbox/HR"
 
+  alias pbcopy='xsel --clipboard --input'
+  alias pbpaste='xsel --clipboard --output'
   export EDITOR=vim
   
   source $HOME/load_api_keys.sh
