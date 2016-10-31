@@ -88,8 +88,11 @@ source $ZSH/oh-my-zsh.sh
 
   alias pbcopy='xsel --clipboard --input'
   alias pbpaste='xsel --clipboard --output'
-  export EDITOR=vim
   
+  alias pastebin="pastebinit -b http://pastebin.com -i $4"
+
+  export EDITOR=vim
+
   source $HOME/load_api_keys.sh
 
   screenfetch
