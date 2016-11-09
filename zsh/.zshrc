@@ -92,6 +92,8 @@ source $ZSH/oh-my-zsh.sh
   alias pastebin="pastebinit -b http://pastebin.com -i $4"
 
   export EDITOR=vim
+  
+  export PATH=$PATH":/home/$(whoami)/.dotfiles/scripts/"
 
   source $HOME/load_api_keys.sh
 
