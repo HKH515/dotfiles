@@ -242,6 +242,8 @@ smart_gaps on
 
 
 exec xset r rate 150 30
+exec syndaemon -i 1.0 -K -R -t
+
 
 exec --no-startup-id nm-applet
 exec --no-startup-id dropbox start
