@@ -188,7 +188,7 @@ bindsym Mod4+Shift+Mod1+u exec setxkbmap us
 
 #Application shortcuts
 bindsym Mod4+Shift+t exec atom
-bindsym Mod4+Shift+c exec chromium-browser
+bindsym Mod4+Shift+c exec google-chrome
 bindsym Mod4+Shift+f exec pcmanfm
 bindsym Mod4+Shift+p exec evince
 
