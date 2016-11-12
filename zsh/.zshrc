@@ -90,6 +90,9 @@ source $ZSH/oh-my-zsh.sh
   alias pbpaste='xsel --clipboard --output'
   
   alias pastebin="pastebinit -b http://pastebin.com -i $4"
+    
+  alias inst="sudo apt-get install $3"
+  alias rem="sudo apt-get remove $3"
 
   export EDITOR=vim
   
