@@ -170,13 +170,13 @@ mode "resize" {
 bindsym Mod1+r mode "resize"
 
 #Brightness
-#bindsym XF86MonBrightnessUp exec $(pwd)/scripts/brightness.py +2
-#bindsym XF86MonBrightnessDown exec ~/.dotfiles/scripts/brightness.py -2
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
 #Volume
-bindsym XF86AudioRaiseVolume exec amixer -q set IEC958 2dB+ unmute
-bindsym XF86AudioLowerVolume exec amixer -q set IEC958 2dB- unmute
-bindsym XF86AudioMute exec amixer -q set IEC958 toggle
+bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
+bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
+bindsym XF86AudioMute exec amixer -D pulse sset Master Toggle
 
 #Keyboard Backlight
 #bindsym XF86KbdBrightnessUp exec "file=/sys/class/leds/tpacpi::thinklight/brightness; val='cat $file'; if [ $val -lt 3 ]; then echo 'expr $val + 1' > $file; fi"
