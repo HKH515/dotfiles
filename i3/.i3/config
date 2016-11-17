@@ -211,7 +211,7 @@ bindsym Mod4+Shift+w exec feh --randomize --bg-fill ~/Dropbox/Walls/All/
 # finds out, if available)
 bar {
 	#font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-        font pango: Roboto 11, FontAwesome 11
+        font pango:Terminus, FontAwesome 11
 	mode dock
         status_command i3blocks -c ~/.i3blocks.conf
 	colors {
