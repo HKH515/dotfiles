@@ -89,7 +89,7 @@ source $ZSH/oh-my-zsh.sh
   alias pbcopy='xsel --clipboard --input'
   alias pbpaste='xsel --clipboard --output'
   
-  alias pastebin="pastebinit -b http://pastebin.com -i"
+  alias pastebin="pastebinit -b http://pastebin.com -i -a paste"
     
   alias inst="sudo apt-get install"
   alias rem="sudo apt-get remove"
