@@ -98,6 +98,4 @@ source $ZSH/oh-my-zsh.sh
   
   export PATH=$PATH":/home/$(whoami)/.dotfiles/scripts/"
 
-  source $HOME/load_api_keys.sh
 
-  screenfetch
