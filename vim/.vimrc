@@ -28,7 +28,7 @@ set tabstop=4
 " " when indenting with '>', use 4 spaces width
 set shiftwidth=4
 " " On pressing tab, insert 4 spaces
-set expandtab
+"set expandtab
 set laststatus=2
 set t_Co=256
 set noshowmode
@@ -40,8 +40,8 @@ let g:airline_powerline_fonts = 1
 " buffers
 let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
 let g:airline#extensions#tabline#fnamemod = ':t' " Show just the filename
-nmap m :bnext<CR>
-nmap n :bprevious<CR>
+nmap <F3> :bnext<CR>
+nmap <F2> :bprevious<CR>
 nmap <C-w> :bw<CR>
 nmap t :enew<cr>
 

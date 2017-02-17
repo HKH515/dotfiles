@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=$HOME/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -83,19 +83,20 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-  alias retoot="sudo service network-manager restart"
-  alias hr="cd ~/Dropbox/HR"
+alias retoot="sudo service network-manager restart"
+alias hr="cd ~/Dropbox/HR"
 
-  alias pbcopy='xsel --clipboard --input'
-  alias pbpaste='xsel --clipboard --output'
-  
-  alias pastebin="pastebinit -b http://pastebin.com -i -a paste"
-    
-  alias inst="sudo apt-get install"
-  alias rem="sudo apt-get remove"
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
 
-  export EDITOR=vim
-  
-  export PATH=$PATH":/home/$(whoami)/.dotfiles/scripts/"
+alias pastebin="pastebinit -b http://pastebin.com -i -a paste"
 
+alias inst="sudo apt-get install"
+alias rem="sudo apt-get remove"
 
+export EDITOR=vim
+export term=xterm-256color
+export PATH=$PATH":/home/$(whoami)/.dotfiles/scripts/"
+if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
+	source ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
+fi
