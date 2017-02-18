@@ -10,10 +10,10 @@ scrot "$tmpbg"
 
 
 #Pixelated
-#convert "$tmpbg" -scale 10% -scale 1000% "$tmpbg"
+convert "$tmpbg" -scale 10% -scale 1000% "$tmpbg"
 
 #Blurred
-convert "$tmpbg" -blur 0x8 "$tmpbg"
+#convert "$tmpbg" -blur 0x8 "$tmpbg"
 
 
 
