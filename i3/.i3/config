@@ -50,7 +50,10 @@ bindsym Mod1+Shift+q kill
 
 # start dmenu (a program launcher)
 #bindsym Mod1+d exec dmenu_run -fn 'Terminus' -nb '#253542' -nf '#6c7c8c' -sf '#253542' -sb '#6c7c8c'
-bindsym Mod1+d exec rofi -show run -lines 4 -eh 2 -location 0 -fullscreen -padding 100 -opacity 50 -bw 0 -bc "$253542" -bg "253542" -fg "6c7c8c" -hlbg "#253542" -hlfg "#6c7c8c" -font "Monospace 18"
+#bindsym Mod1+d exec rofi -show run -lines 4 -eh 2 -location 0 -fullscreen -padding 100 -opacity 50 -bw 0 -bc "$253542" -bg "253542" -fg "6c7c8c" -hlbg "#253542" -hlfg "#6c7c8c" -font "Monospace 18"
+
+bindsym Mod1+d exec rofi -show run
+
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.

@@ -7,3 +7,5 @@ stow i3blocks
 stow termite
 stow polybar
 stow xresources
+stow dunst
+stow rofi
