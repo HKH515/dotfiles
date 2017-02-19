@@ -72,3 +72,6 @@ nnoremap <F8> :TagbarOpen fj<CR>
 "
 " auto-indent file
 map <F7> gg=G
+
+" syntax highlighting
+syntax on
