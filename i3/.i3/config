@@ -251,8 +251,8 @@ bindsym Mod4+Shift+w exec feh --randomize --bg-fill ~/Dropbox/Walls/All/
 for_window [class="^.*"] border pixel 0
 
 gaps inner 2
-gaps outer 1
-smart_gaps on
+gaps outer 12
+#smart_gaps on
 
 exec nmcli &
 exec xset r rate 150 30
