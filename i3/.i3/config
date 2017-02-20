@@ -248,9 +248,15 @@ bindsym Mod4+Shift+w exec feh --randomize --bg-fill ~/Dropbox/Walls/All/
 #exec i3-config-wizard
 
 
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border none
 
-gaps inner 2
+#client.focused #ff9944 #ff9944 #ff9944 #ff9944
+#client.unfocused #222244 #222244 #222244 #222244
+
+
+
+
+gaps inner 5
 gaps outer 12
 #smart_gaps on
 
@@ -262,7 +268,7 @@ exec syndaemon -i 1.0 -K -R -t
 exec --no-startup-id nm-applet
 exec --no-startup-id dropbox start
 
-exec compton --backend glx --vsync opengl --blur-background
+exec compton --backend glx --vsync opengl-oml
 
 exec sh ~/.fehbg
 

@@ -1,12 +1,12 @@
 [global]
-    font = "Consolas 12"
+    font = "Dina 9"
     allow_markup = yes
     format = "<b>%s %p</b>\n%b"
     sort = yes
     indicate_hidden = true
     # geometry = "x5"
     idle_threshold = 0
-    geometry = "300x5-20+20"
+    geometry = "300x5-20+60"
     alignment = center
     show_age_threshold = 60
     sticky_history = yes
@@ -22,7 +22,7 @@
 
 [frame]
     width = 3
-    color = "#000000"
+    color = "#222240"
 
 [shortcuts]
     close = ctrl+space
@@ -31,16 +31,16 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#ffffff"
-    foreground = "#000000"
+    background = "#222244"
+    foreground = "#ffffff"
     timeout = 5
 
 [urgency_normal]
-    background = "#94DBFF"
-    foreground = "#000000"
+    background = "#222244"
+    foreground = "#ff9944"
     timeout = 45
 
 [urgency_critical]
-    background = "#ff9999"
-    foreground = "#000000"
+    background = "#222244"
+    foreground = "#dc322f"
     timeout = 0
