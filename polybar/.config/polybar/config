@@ -9,7 +9,7 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #222
+background = #2220
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
@@ -36,7 +36,6 @@ height = 40
 radius = 1.0
 fixed-center = false
 
-
 font-0 = Dina:pixelsize=10;1
 
 background = ${colors.background}
@@ -55,9 +54,9 @@ module-margin-left = 1
 module-margin-right = 2
 
 
-modules-left = bspwm i3
+modules-left = bspwm i3 xwindow
 modules-center = mpd
-modules-right = filesystem xbacklight volume xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-right =  xkeyboard memory cpu wlan eth battery temperature date
 
 tray-position = right
 tray-padding = 2
@@ -77,7 +76,7 @@ tray-padding = 2
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+label = %title:0:150:...%
 
 [module/xkeyboard]
 type = internal/xkeyboard

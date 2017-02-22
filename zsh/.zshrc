@@ -51,7 +51,7 @@ ZSH_THEME="norm"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+#plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -101,7 +101,7 @@ alias inst="sudo apt-get install"
 alias rem="sudo apt-get remove"
 
 
-
+PATH=$PATH:~/Documents/problemtools/bin
 
 
 
@@ -112,3 +112,5 @@ export PATH=$PATH":/home/$(whoami)/.dotfiles/scripts/"
 if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
 	source ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 fi
+
+neofetch --ascii_bold
