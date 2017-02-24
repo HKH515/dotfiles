@@ -250,9 +250,13 @@ bindsym Mod4+Shift+w exec feh --randomize --bg-fill ~/Dropbox/Walls/All/
 
 for_window [class="^.*"] border pixel 7
 
+
 client.focused #ff9944bb #ff9944bb #ff9944bb #ff9944bb
+client.focused_inactive #ff9944bb #ff9944bb #ff9944bb #ff9944bb
 client.unfocused #ff9944bb #ff9944bb #ff9944bb #ff9944bb
 client.urgent #ff9944bb #ff9944bb #ff9944bb #ff9944bb
+client.placeholder #ff9944bb #ff9944bb #ff9944bb #ff9944bb
+client.background #ff9944bb #ff9944bb #ff9944bb #ff9944bb
 #client.unfocused #222244 #222244 #222244 #222244
 
 
