@@ -248,16 +248,18 @@ bindsym Mod4+Shift+w exec feh --randomize --bg-fill ~/Dropbox/Walls/All/
 #exec i3-config-wizard
 
 
-for_window [class="^.*"] border none
+for_window [class="^.*"] border pixel 7
 
-#client.focused #ff9944 #ff9944 #ff9944 #ff9944
+client.focused #ff9944bb #ff9944bb #ff9944bb #ff9944bb
+client.unfocused #ff9944bb #ff9944bb #ff9944bb #ff9944bb
+client.urgent #ff9944bb #ff9944bb #ff9944bb #ff9944bb
 #client.unfocused #222244 #222244 #222244 #222244
 
 
 
 
-gaps inner 5
-gaps outer 12
+gaps inner 15
+gaps outer 15
 #smart_gaps on
 
 exec nmcli &
