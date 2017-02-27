@@ -75,3 +75,7 @@ map <F7> gg=G
 
 " syntax highlighting
 syntax on
+
+
+" mouse support
+set mouse=a
