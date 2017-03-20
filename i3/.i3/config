@@ -212,7 +212,7 @@ bindsym Mod4+Shift+p exec evince
 bindsym Mod4+Shift+k exec ~/Dropbox/sh_scripts/puush.sh
 
 #Locking
-bindsym Mod4+Shift+l exec ~/Dropbox/sh_scripts/lockscreen.sh
+bindsym Mod4+Shift+l exec i3lock-next
 
 #Caps/Numlock support for i3blocks
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
@@ -281,6 +281,7 @@ exec compton --backend glx --vsync opengl-oml
 exec sh ~/.fehbg
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec synclient TapButton1=1 TapButton2=3 TapButton3=2
 
 
 exec xset -b #disable systemd system bell beep sound
