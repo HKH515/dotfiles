@@ -21,6 +21,7 @@ Plugin 'airblade/vim-gitgutter' " Git gutter
 " Plugin 'wakatime/vim-wakatime' " Time tracking platform
 " Plugin 'scrooloose/syntastic' " Linter
 Plugin 'whatyouhide/vim-gotham' " Colorscheme
+Plugin 'tpope/vim-commentary' " Auto-comment code
 call vundle#end()            " required
 filetype plugin indent on    " required
 " show existing tab with 4 spaces width

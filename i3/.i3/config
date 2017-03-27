@@ -253,10 +253,12 @@ for_window [class="^.*"] border pixel 3
 set $green #4efca2bb
 set $blue #4fb2ffbb
 set $orange #ff9944bb
+set $gray #7a7a7a
+set $darkgray #5b5b5b
 
-client.focused $green $green $green $green
-client.focused_inactive $blue $blue $blue $blue
-client.unfocused $orange $orange $orange $orange
+client.focused $gray $gray $gray $gray
+client.focused_inactive $darkgray $darkgray $darkgray $darkgray
+client.unfocused $darkgray $darkgray $darkgray $darkgray $darkgray
 client.urgent $orange $orange $orange $orange
 client.placeholder $orange $orange $orange $orange
 client.background $orange $orange $orange $orange
@@ -264,8 +266,8 @@ client.background $orange $orange $orange $orange
 
 
 
-gaps inner 15
-gaps outer 15
+gaps inner 5
+gaps outer 0
 #smart_gaps on
 
 exec nmcli &

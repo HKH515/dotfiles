@@ -14,7 +14,8 @@ background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #555
-primary = #ffb52a
+; primary = #ffb52a
+  primary = #ffffff
 secondary = #e60053
 alert = #bd2c40
 
@@ -30,7 +31,7 @@ fixed-center = false
 [bar/top]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 40
+height = 20
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 1.0
@@ -42,7 +43,7 @@ background = ${colors.background}
 foreground = ${colors.foreground}
 
 line-size = 3
-line-color = #f00
+line-color = #000000
 
 border-size = 4
 border-color = #00000000
