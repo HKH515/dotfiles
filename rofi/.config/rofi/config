@@ -1,8 +1,9 @@
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
+! Copyright: Rasmus Steinke
 ! ------------------------------------------------------------------------------
-rofi.color-enabled: false
-rofi.color-window: #554466, #222244, #222244
-rofi.color-normal: #222244, #ff9944, #222240, #554466, #eeccaa
-rofi.color-active: #222244, #f1bd00, #222240, #554466, #fdf6e3
-rofi.color-urgent: #222244, #dc322f, #222240, #554466, #ffd45c
+rofi.color-enabled: true
+rofi.color-window: #273238, #273238, #1e2529
+rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
