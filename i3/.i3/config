@@ -255,10 +255,11 @@ set $blue #4fb2ffbb
 set $orange #ff9944bb
 set $gray #7a7a7a
 set $darkgray #5b5b5b
+set $darkdarkgray #4b4b4b
 
-client.focused $gray $gray $gray $gray
-client.focused_inactive $darkgray $darkgray $darkgray $darkgray
-client.unfocused $darkgray $darkgray $darkgray $darkgray $darkgray
+client.focused $darkgray $darkgray $darkgray $darkgray
+client.focused_inactive $darkdarkgray $darkdarkgray $darkdarkgray $darkdarkgray
+client.unfocused $darkdarkgray $darkdarkgray $darkdarkgray $darkdarkgray $darkdarkgray
 client.urgent $orange $orange $orange $orange
 client.placeholder $orange $orange $orange $orange
 client.background $orange $orange $orange $orange
