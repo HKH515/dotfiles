@@ -9,15 +9,18 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #2220
-background-alt = #444
+background = #222222
+background-alt = #444444
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
+foreground = #eee
 foreground-alt = #555
 ; primary = #ffb52a
   primary = #ffffff
 secondary = #e60053
 alert = #bd2c40
+linecolor = #fba922
+accent = #e60053
+bordercolor = #333
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -31,26 +34,28 @@ fixed-center = false
 [bar/top]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 20
+height = 27
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 1.0
 fixed-center = false
-
 font-0 = Dina:pixelsize=10;1
-
+border-bottom = 2
 background = ${colors.background}
 foreground = ${colors.foreground}
-
+enable-ipc = true
 line-size = 3
-line-color = #000000
-
-border-size = 4
+line-color = ${colors.linecolor}
+underline-size = 1
+overline-size = 2
+border-size = 0
 border-color = #00000000
 
-padding-left = 0
-padding-right = 2
 
+spacing = 1
+lineheight = 2
+padding-left = 2
+padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
@@ -60,7 +65,7 @@ modules-center = mpd
 modules-right =  xkeyboard memory cpu wlan eth battery temperature date
 
 tray-position = right
-tray-padding = 2
+tray-padding = 0
 ;tray-transparent = true
 ;tray-background = #0063ff
 
