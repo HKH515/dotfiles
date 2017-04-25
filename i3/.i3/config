@@ -201,14 +201,6 @@ bindsym Mod4+Shift+m exec playerctl play-pause
 #Keyboard switching
 bindsym Mod4+Shift+Mod1+i exec setxkbmap is
 bindsym Mod4+Shift+Mod1+u exec setxkbmap us
-
-#Application shortcuts
-bindsym Mod4+Shift+t exec atom
-bindsym Mod4+Shift+c exec google-chrome
-bindsym Mod4+Shift+f exec pcmanfm
-bindsym Mod4+Shift+p exec evince
-
-#Puush
 bindsym Mod4+Shift+k exec ~/Dropbox/sh_scripts/puush.sh
 
 #Locking
@@ -284,3 +276,4 @@ exec synclient TapButton1=1 TapButton2=3 TapButton3=2
 
 
 exec xset -b #disable systemd system bell beep sound
+exec redshift
