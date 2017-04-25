@@ -251,21 +251,16 @@ bindsym Mod4+Shift+w exec "wal -i ~/Dropbox/Walls/riced -o wal-set"
 
 for_window [class="^.*"] border pixel 1
 
-set $green #4efca2bb
-set $blue #4fb2ffbb
-set $orange #ff9944bb
-set $gray #7a7a7a
-set $darkgray #5b5b5b
-set $darkdarkgray #4b4b4b
+set_from_resource $fg i3wm.color7
+set_from_resource $bg i3wm.color2 
 
-client.focused $darkgray $darkgray $darkgray $darkgray
-client.focused_inactive $darkdarkgray $darkdarkgray $darkdarkgray $darkdarkgray
-client.unfocused $darkdarkgray $darkdarkgray $darkdarkgray $darkdarkgray $darkdarkgray
-client.urgent $orange $orange $orange $orange
-client.placeholder $orange $orange $orange $orange
-client.background $orange $orange $orange $orange
+client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused_inactive $bg     $bg     $fg  $bg       $bg
+client.unfocused        $bg     $bg     $fg  $bg       $bg
+client.urgent           $bg     $bg     $fg  $bg       $bg
+client.placeholder      $bg     $bg     $fg  $bg       $bg
 
-
+client.background       $bg
 
 
 gaps inner 5

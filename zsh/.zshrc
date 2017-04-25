@@ -102,7 +102,7 @@ alias rem="sudo apt-get remove"
 
 
 PATH=$PATH:~/Documents/problemtools/bin
-
+PATH=$PATH:~/dotfiles/scripts
 
 
 

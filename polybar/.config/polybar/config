@@ -8,17 +8,20 @@
 ;=====================================================
 
 [colors]
-background = ${xrdb:color0:#2220}
-background-alt = #444444
-foreground = ${xrdb:color7:#2220}
-foreground-alt = #555
-; primary = #ffb52a
-  primary = #ffffff
-secondary = #e60053
-alert = #bd2c40
-linecolor = #fba922
-accent = #e60053
-bordercolor = #333
+
+background = ${xrdb:color0}
+background-alt = ${xrdb:color1}
+background-unf = ${xrdb:color0}
+background-mod0 = ${xrdb:color1}
+background-mod1 = ${xrdb:color2}
+background-mod2 = ${xrdb:color4}
+background-alrt = ${xrdb:color6}
+linecolor = ${xrdb:color2}
+
+foreground = ${xrdb:color7}
+foreground-alt = ${xrdb:color7}
+primary = ${xrdb:color7}
+secondary = ${xrdb:color7}
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -38,9 +41,12 @@ height = 27
 radius = 1.0
 fixed-center = false
 font-0 = Dina:pixelsize=10;1
+font-3 = PowerlineSymbols:size=10;0
 border-bottom = 2
+
 background = ${colors.background}
 foreground = ${colors.foreground}
+
 enable-ipc = true
 line-size = 3
 line-color = ${colors.linecolor}
@@ -49,7 +55,6 @@ underline-color = #333
 overline-size = 2
 border-size = 0
 border-color = #777
-
 
 spacing = 1
 lineheight = 2
