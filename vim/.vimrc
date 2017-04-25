@@ -18,6 +18,7 @@ Plugin 'vim-airline/vim-airline-themes' " Airline themes
 Plugin 'scrooloose/nerdtree' " Fuzzy file finder
 Plugin 'majutsushi/tagbar' " Class outliner
 Plugin 'airblade/vim-gitgutter' " Git gutter
+Plugin 'derekelkins/agda-vim' " agda support
 " Plugin 'wakatime/vim-wakatime' " Time tracking platform
 " Plugin 'scrooloose/syntastic' " Linter
 Plugin 'whatyouhide/vim-gotham' " Colorscheme

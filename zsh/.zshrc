@@ -114,3 +114,4 @@ if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.z
 fi
 
 neofetch --ascii_bold
+(wal -r &)
