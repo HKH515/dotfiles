@@ -70,7 +70,7 @@ set clipboard=unnamedplus
 inoremap jj <ESC>
 
 " tagbar
-nnoremap <F8> :TagbarOpen fj<CR>
+nnoremap <F8> :TagbarToggle<CR>
 "
 " auto-indent file
 map <F7> gg=G
