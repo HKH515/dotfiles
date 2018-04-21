@@ -39,6 +39,9 @@ set number
 let g:airline_powerline_fonts = 1
 colorscheme wombat256mod
 
+" synchronize clipboard with vim unnamed register
+set clipboard=unnamedplus
+
 " buffers
 let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
 let g:airline#extensions#tabline#fnamemod = ':t' " Show just the filename

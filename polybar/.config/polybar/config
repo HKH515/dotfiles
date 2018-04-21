@@ -41,8 +41,9 @@ height = 27
 ;offset-y = 1%
 radius = 1.0
 fixed-center = false
-font-0 = Dina:pixelsize=10;1
-;font-1 = PowerlineSymbols:size=10;0
+font-0 = Dina:pixelsize=10;0
+font-1 = Wuncon Siji:pixelsize=10;0
+;font-1 = FontAwesome:size=10;0
 border-bottom = 2
 
 background = ${colors.background}
@@ -277,7 +278,8 @@ label = %date% %time%
 type = internal/volume
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL
+#label-volume = VOL
+label-volume = <label-volume>
 label-volume-foreground = ${root.foreground}
 
 format-muted-prefix = " "
