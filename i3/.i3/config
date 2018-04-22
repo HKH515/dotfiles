@@ -264,13 +264,14 @@ exec xset r rate 150 30
 exec syndaemon -i 1.0 -K -R -t
 
 
+exec wal -i "$(< "${HOME}/.cache/wal/wal/")"
+
 exec --no-startup-id nm-applet
 exec --no-startup-id dropbox start
 
 exec compton --backend glx --vsync opengl-oml
 
 exec sh ~/.fehbg
-
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec synclient TapButton1=1 TapButton2=3 TapButton3=2 HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelta=-111
 
