@@ -9,3 +9,4 @@ stow polybar
 stow xresources
 stow dunst
 stow rofi
+stow x
