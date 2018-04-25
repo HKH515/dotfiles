@@ -201,7 +201,7 @@ bindsym Mod4+Shift+m exec playerctl play-pause
 #Keyboard switching
 bindsym Mod4+Shift+Mod1+i exec setxkbmap is
 bindsym Mod4+Shift+Mod1+u exec setxkbmap us
-bindsym Mod4+Shift+k exec ~/Dropbox/sh_scripts/puush.sh
+#bindsym Mod4+Shift+k exec ~/Dropbox/sh_scripts/puush.sh
 
 #Locking
 bindsym Mod4+Shift+l exec i3lock-next
